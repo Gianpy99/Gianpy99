@@ -42,7 +42,6 @@ Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gianpy99&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gianpy99&layout=compact&theme=tokyonight)
-![GitHub Streak](https://streak-stats.demolab.com/?user=gianpy99&theme=tokyonight)
 
 ---
 
