@@ -36,6 +36,16 @@ Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
 ```
 ---
 
+---
+
+### 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=alex-dev42&show_icons=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alex-dev42&layout=compact&theme=tokyonight)
+![GitHub Streak](https://streak-stats.demolab.com/?user=alex-dev42&theme=tokyonight)
+
+---
+
 ### 📫 Let's Connect!
 
 - 💼 [LinkedIn](https://linkedin.com/in/yourname)
