@@ -38,10 +38,20 @@ Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
 
 
 
+<img width="424" height="299" alt="image" src="https://github.com/user-attachments/assets/47adbc6f-cc75-4656-9dc5-6e2dbb556a63" />
 
 
 
+📫 Let's Connect!
+💼 LinkedIn
 
+🌐 Portfolio Website (optional)
+
+🧠 Blog (optional)
+
+📬 Reach me: your.email@example.com
+
+<sub>Thanks for visiting! I'm always open to collaborations, interesting side projects, and improving systems through automation.</sub>
 
 
 <!--
