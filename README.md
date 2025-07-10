@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<h1 align="center">Hi there 👋, I'm [Your Name]</h1>
+<h1 align="center">Hi there 👋, I'm Gianpaolo </h1>
 
 <p align="center">
   🚀 Engineer | 🔧 Maker | 🧠 Curious Technologist  
