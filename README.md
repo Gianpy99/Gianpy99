@@ -31,11 +31,9 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ### 🛠 Tech Stack
 
-```text
 Languages:    Python • Bash • Markdown • JavaScript (basic)
 Platforms:    Raspberry Pi • Windows • Linux • Docker
 Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
-```text
 
 ---
 
