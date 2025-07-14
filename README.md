@@ -45,7 +45,7 @@ Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
 
 ### 📫 Let's Connect!
 
-- 💼 [LinkedIn](www.linkedin.com/in/gianpaolo-borrello)
+- 💼 [LinkedIn](https://www.linkedin.com/in/gianpaolo-borrello)
 - 🌐 [Photography Portfolio Website](https://yourname.dev) *(page in progress)*
 - 📬 Reach me: gianpaolo.borrello@gmail.com
 
