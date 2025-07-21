@@ -22,19 +22,20 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### 🤖 AI & Machine Learning
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**Tricky_word_phonics**](https://github.com/Gianpy99/Tricky_word_phonics) | Learning platform AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
+| [**Tricky_word_phonics**](https://github.com/Gianpy99/Tricky_word_phonics) | Educational platform using AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
 | [**AI CoralTPU Development**](https://github.com/Gianpy99/AI_CoralTPU_Development) | Edge AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
 
 #### 🔧 DevOps & Automation  
 | Project | Description | Tech |
 |--------|-------------|------|
 | [**CI/CD on Raspberry Pi**](https://github.com/Gianpy99/CI_CD_Validation) | Jenkins + Docker on Pi for embedded software pipelines | Docker, Jenkins, Python |
+| [**Trading automation on Raspberry Pi**](https://github.com/Gianpy99/TradingAutomation) | Trading Automation mainly focused on Crypto market | Docker, Jenkins, Python |
 
 #### 🧱 Tools & Utilities
 | Project | Description | Tech |
 |--------|-------------|------|
 | [**LEGO Part Converter**](https://github.com/Gianpy99/Lego_Bricklink) | Converts BrickLink XML inventory to Rebrickable-compatible format | Python, Rebrickable API, Flask |
-| [**Auto Blind Coaching**](https://github.com/Gianpy99/Blind_Coaching) | Little application that helps you with a blind coach session | Python, Flask |
+| [**Self Blind Coaching**](https://github.com/Gianpy99/Blind_Coaching) | Little application that helps you with a blind coach session | Python, Flask |
 
 #### 📱 Other Projects
 *Explore more projects in my [repositories](https://github.com/Gianpy99?tab=repositories)*
@@ -46,37 +47,22 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 Languages:    Python • Bash • Markdown • JavaScript (basic)
 Platforms:    Raspberry Pi • Windows • Linux • Docker
 Tools:        Jenkins • Git • CANape • REST APIs • OpenCV • VS Code
+AI/ML:        TensorFlow Lite • Google Coral TPU • Edge AI
+Web:          Flask • REST APIs • Web Development
+Finance:      Trading Automation • Crypto Markets
 ```
----
 
 ---
 
-### � Repository Overview
+### 🏆 What I'm Working On
 
-<details>
-<summary>🔍 Click to explore all my repositories</summary>
-
-#### AI & Machine Learning
-- 🧠 **AI_CoralTPU_Development** - Edge AI with Google Coral TPU
-- 🤖 *[Add your ML/AI projects here]*
-
-#### DevOps & Infrastructure  
-- 🔧 **jenkins-pi** - CI/CD automation on Raspberry Pi
-- 🐳 *[Add your DevOps projects here]*
-
-#### Tools & Utilities
-- 🧱 **bricklink-rebrickable** - LEGO inventory converter
-- ⚒️ *[Add your utility projects here]*
-
-#### Learning & Experiments
-- 📚 *[Add your learning projects here]*
-- 🔬 *[Add your experimental projects here]*
-
-</details>
-
+- 🤖 **Edge AI Development**: Pushing the boundaries of on-device inference with Coral TPU
+- 🔄 **CI/CD Automation**: Building robust validation pipelines for embedded systems  
+- 📈 **Trading Automation**: Developing algorithmic trading systems for crypto markets
+- 🎯 **Educational Tools**: Creating interactive learning platforms with AI integration
 ---
 
-### �📊 GitHub Stats
+### 📊 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=gianpy99&show_icons=true&theme=tokyonight)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gianpy99&layout=compact&theme=tokyonight)
