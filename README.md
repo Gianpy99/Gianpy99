@@ -23,8 +23,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 | Project | Description | Tech |
 |--------|-------------|------|
 | [**Tricky_word_phonics**](https://github.com/Gianpy99/Tricky_word_phonics) | Learning platform AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
-
-| Project | Description | Tech |
 |--------|-------------|------|
 | [**AI CoralTPU Development**](https://github.com/Gianpy99/AI_CoralTPU_Development) | Edge AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
 
