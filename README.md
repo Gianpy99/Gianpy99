@@ -22,17 +22,21 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### 🤖 AI & Machine Learning
 | Project | Description | Tech |
 |--------|-------------|------|
+| [**Tricky_word_phonics**](https://github.com/Gianpy99/Tricky_word_phonics) | Learning platform AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
+
+| Project | Description | Tech |
+|--------|-------------|------|
 | [**AI CoralTPU Development**](https://github.com/Gianpy99/AI_CoralTPU_Development) | Edge AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
 
 #### 🔧 DevOps & Automation  
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**CI/CD on Raspberry Pi**](https://github.com/Gianpy99/jenkins-pi) | Jenkins + Docker on Pi for embedded software pipelines | Docker, Jenkins, Python |
+| [**CI/CD on Raspberry Pi**](https://github.com/Gianpy99/CI_CD_Validation) | Jenkins + Docker on Pi for embedded software pipelines | Docker, Jenkins, Python |
 
 #### 🧱 Tools & Utilities
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**LEGO Part Converter**](https://github.com/Gianpy99/bricklink-rebrickable) | Converts BrickLink XML inventory to Rebrickable-compatible format | Python, Rebrickable API |
+| [**LEGO Part Converter**](https://github.com/Gianpy99/Lego_Bricklink) | Converts BrickLink XML inventory to Rebrickable-compatible format | Python, Rebrickable API |
 
 #### 📱 Other Projects
 *Explore more projects in my [repositories](https://github.com/Gianpy99?tab=repositories)*
