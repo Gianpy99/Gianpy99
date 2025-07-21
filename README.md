@@ -23,7 +23,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 | Project | Description | Tech |
 |--------|-------------|------|
 | [**Tricky_word_phonics**](https://github.com/Gianpy99/Tricky_word_phonics) | Learning platform AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
-|--------|-------------|------|
 | [**AI CoralTPU Development**](https://github.com/Gianpy99/AI_CoralTPU_Development) | Edge AI development with Google Coral TPU | Python, TensorFlow Lite, Coral TPU |
 
 #### 🔧 DevOps & Automation  
@@ -34,7 +33,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### 🧱 Tools & Utilities
 | Project | Description | Tech |
 |--------|-------------|------|
-| [**LEGO Part Converter**](https://github.com/Gianpy99/Lego_Bricklink) | Converts BrickLink XML inventory to Rebrickable-compatible format | Python, Rebrickable API |
+| [**LEGO Part Converter**](https://github.com/Gianpy99/Lego_Bricklink) | Converts BrickLink XML inventory to Rebrickable-compatible format | Python, Rebrickable API, Flask |
+| [**Auto Blind Coaching**](https://github.com/Gianpy99/Blind_Coaching) | Little application that helps you with a blind coach session | Python, Flask |
 
 #### 📱 Other Projects
 *Explore more projects in my [repositories](https://github.com/Gianpy99?tab=repositories)*
