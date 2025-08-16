@@ -188,7 +188,7 @@ def format_repo_card(repo):
         f"🏷️ **Category:** {category_str}\n\n"
         f"💻 **Tech:** {tech_str}\n\n"
         f"📖 {description}\n\n"
-        f"👣 {progress}\n\n\n---\n"
+        f"{progress}\n\n\n---\n"
     )
 
 def generate_readme(repos):
