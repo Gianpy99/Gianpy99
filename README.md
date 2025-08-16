@@ -45,11 +45,11 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 
-#### Fun & Magic
+#### CI\CD & Devops
 
 [![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
 
-🏷️ **Category:** `none`
+🏷️ **Category:** `automation` `Python` `CI/CD`
 
 💻 **Tech:** Python, GitHub Actions
 
@@ -57,6 +57,10 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 ---
+
+
+
+#### Fun & Magic
 
 [![MythicMoments](https://img.shields.io/badge/MythicMoments-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/MythicMoments)
 
@@ -70,6 +74,17 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 ---
 
 [![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
+
+🏷️ **Category:** none
+
+💻 **Tech:** None
+
+📖 None
+
+
+---
+
+[![VirtualMuseum](https://img.shields.io/badge/VirtualMuseum-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/VirtualMuseum)
 
 🏷️ **Category:** none
 
