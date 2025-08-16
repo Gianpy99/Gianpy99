@@ -48,6 +48,7 @@ def progress_bar(current, total=TOTAL_STEPS):
 def fetch_repos():
     url = f"https://api.github.com/users/{USERNAME}/repos?per_page=100&type=owner&sort=updated"
     headers = {"Authorization": f"token {GH_TOKEN}"} if GH_TOKEN else {}
+    headers["Accept"] = "application/vnd.github.mercy-preview+json"  # important for topics!
     repos = []
     while url:
         r = requests.get(url, headers=headers)
@@ -59,7 +60,6 @@ def fetch_repos():
 def filter_repos(repos):
     filtered = []
     hide_topic = os.environ.get("HIDE_TOPIC", "").strip()
-
     for repo in repos:
         full_name = repo.get('full_name', 'unknown')
         fork = repo.get('fork', False)
