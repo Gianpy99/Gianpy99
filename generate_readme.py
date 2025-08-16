@@ -164,14 +164,10 @@ def format_repo_card(repo):
     tech_str = ", ".join(tech)
 
     return (
-        f"{badge}\n"
-        f"🏷️ **Topics:** {topics_str}\n"
-        f"💻 **Tech:** {tech_str}\n"
-        f"📖 {description}\n\n---\n"
+        f"{badge}\n\n"
+        f"💻 **Tech:** {tech_str}\n\n"
+        f"📖 {description}\n\n\n---\n"
     )
-
-
-
 
 def generate_readme(repos):
     content = "## 🚀 My Projects\n\n"
