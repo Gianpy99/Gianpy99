@@ -15,6 +15,15 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ### 🌟 Featured Projects
 
+#### AI & Machine Learning
+
+| Project | Description | Tech |
+|--------|-------------|------|
+
+| [**RocketNotes_AI**](https://github.com/Gianpy99/RocketNotes_AI) | No description | None |
+
+
+
 #### Other
 
 | Project | Description | Tech |
