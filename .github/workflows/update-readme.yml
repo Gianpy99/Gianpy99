@@ -27,7 +27,7 @@ jobs:
           TOTAL_STEPS: "10"
           TOP_N_REPOS: "3"
           SELECTED_SEPARATOR: "adventure"     # options: classic_magic, flying_eagle, starry_night, forest_mystic, adventure
-          SELECTED_HOBBIT_STYLE: "blocks"         # options: blocks, dots
+          SELECTED_HOBBIT_STYLE: "footsteps"         # options: blocks, dots
           HIDE_TOPIC: "profile-hide"              # tag repos with this topic to hide them
           EXCLUDE_FORKS: "true"
           EXCLUDE_ARCHIVED: "true"
