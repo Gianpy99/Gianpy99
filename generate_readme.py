@@ -81,7 +81,7 @@ def filter_repos(repos):
 
        print(f"       Including repo in README")
 
-        filtered.append(repo)
+       filtered.append(repo)
     return filtered
 
 def categorize_repos(repos):
