@@ -157,6 +157,7 @@ def format_repo_card(repo):
                 description = data.get("description", description)
                 tech = data.get("tech", tech)
                 topics = data.get("topics", topics)
+                progress = progress_bar(data.get("progress", progress))
                 # Topics as tags
                 category_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
                 tech_str = ", ".join(tech)
@@ -168,25 +169,20 @@ def format_repo_card(repo):
         tech_topics = [t.replace("tech-", "") for t in topics if t.startswith("tech-")]
         category_str = ", ".join(category_topics) if category_topics else "none"
         tech_str = ", ".join(tech_topics) if tech_topics else language
+        # Separiamo il topic progress da quelli normali
+        progress_topics = [t for t in topics if t.startswith("progress-")]
+
+        # Calcolo del progresso se c'è un topic progress
+        if progress_topics:
+            # Estraggo il numero, es: progress-23 -> 23
+            current_step = int(progress_topics[0].split("-")[1])
+            progress = progress_bar(current_step)
+        else:
+            progress = ""
 
 
     # Badge with shields.io
     badge = f"[![{name}](https://img.shields.io/badge/{name}-Repo-blue?style=for-the-badge&logo=github)]({url})"
-
-    # Separiamo il topic progress da quelli normali
-    progress_topics = [t for t in topics if t.startswith("progress-")]
-
-    # Calcolo del progresso se c'è un topic progress
-    if progress_topics:
-        # Estraggo il numero, es: progress-23 -> 23
-        current_step = int(progress_topics[0].split("-")[1])
-        progress = progress_bar(current_step)
-    elif name.lower() == "gianpy99":
-        progress = progress_bar(data.get("progress", progress))
-    else:
-        progress = ""
-
-    
     return (
         f"{badge}\n\n"
         f"🏷️ **Category:** {category_str}\n\n"
