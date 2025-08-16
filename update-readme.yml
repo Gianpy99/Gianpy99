@@ -1,0 +1,47 @@
+
+name: Update README
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily at 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install PyGithub
+
+      - name: Generate README
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          PROFILE_USERNAME: Gianpy99
+          TOTAL_STEPS: "10"
+          TOP_N_REPOS: "3"
+          SELECTED_SEPARATOR: "starry_night"     # options: classic_magic, flying_eagle, starry_night, forest_mystic, adventure_weapons
+          SELECTED_HOBBIT_STYLE: "blocks"         # options: blocks, dots
+          HIDE_TOPIC: "profile-hide"              # tag repos with this topic to hide them
+          EXCLUDE_FORKS: "true"
+          EXCLUDE_ARCHIVED: "true"
+        run: python generate_readme.py
+
+      - name: Commit changes (if any)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if ! git diff --quiet README.md; then
+            git add README.md
+            git commit -m "chore: auto-update profile README"
+            git push
+          else
+            echo "No changes to commit."
+          fi
