@@ -1,5 +1,6 @@
 {
   "topics": ["automation", "Python", "CI/CD"],
   "description": "Main repo for personal GitHub profile scripts",
-  "tech": ["Python", "GitHub Actions"]
+  "tech": ["Python", "GitHub Actions"],
+  "progress": ["8"]
 }
