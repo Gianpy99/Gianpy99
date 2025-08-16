@@ -58,7 +58,7 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 📖 Main repo for personal GitHub profile scripts
 
-👣 
+👣 🧙‍♂️🟩🟩🟩🟩🟩🟩🟩🟩▫️▫️🏔️
 
 
 ---
