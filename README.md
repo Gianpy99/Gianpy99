@@ -30,7 +30,7 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 
-#### Other
+#### Fun & Magic
 
 [![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
 
