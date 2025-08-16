@@ -157,7 +157,7 @@ def format_repo_card(repo):
                 description = data.get("description", description)
                 tech = data.get("tech", tech)
                 topics = data.get("topics", topics)
-                progress = progress_bar(int(data.get("progress", progress)))
+                progress = progress_bar(data.get("progress", 0)))
                 # Topics as tags
                 category_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
                 tech_str = ", ".join(tech)
