@@ -99,6 +99,7 @@ def categorize_repos(repos):
         "CI\CD & Devops": [],
         "Fun & Magic": []
     }
+    
 
     for repo in repos:
         repo_topics = repo.get("topics", [])
@@ -152,6 +153,7 @@ def format_repo_card(repo):
                 data = resp.json()
                 description = data.get("description", description)
                 tech = data.get("tech", tech)
+                topics = data.get("topics", topics)
                 # Topics as tags
                 category_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
                 tech_str = ", ".join(tech)
