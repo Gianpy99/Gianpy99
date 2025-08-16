@@ -17,23 +17,37 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### AI & Machine Learning
 
-| Project | Description | Tech |
-|--------|-------------|------|
+[![RocketNotes_AI](https://img.shields.io/badge/RocketNotes_AI-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/RocketNotes_AI)
+🏷️ **Topics:** `ml`
+💻 **Tech:** None
+📖 None
 
-| [**RocketNotes_AI**](https://github.com/Gianpy99/RocketNotes_AI) | No description | None |
+---
 
 
 
 #### Other
 
-| Project | Description | Tech |
-|--------|-------------|------|
+[![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
+🏷️ **Topics:** `none`
+💻 **Tech:** Python
+📖 My GitHub profile
 
-| [**Gianpy99**](https://github.com/Gianpy99/Gianpy99) | My GitHub profile | Python |
+---
 
-| [**MythicMoments**](https://github.com/Gianpy99/MythicMoments) | No description | Python |
+[![MythicMoments](https://img.shields.io/badge/MythicMoments-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/MythicMoments)
+🏷️ **Topics:** `none`
+💻 **Tech:** Python
+📖 None
 
-| [**Libriary**](https://github.com/Gianpy99/Libriary) | No description | None |
+---
+
+[![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
+🏷️ **Topics:** `none`
+💻 **Tech:** None
+📖 None
+
+---
 
 
 
