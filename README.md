@@ -10,8 +10,7 @@
 
 I'm a hands-on engineer passionate about building test automation pipelines, embedded systems, and scalable development environments.
 
-
-🌌✨🌠🧝‍♂️✨🌌
+<p align="center">🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹</p>
 
 ### 🌟 Featured Projects
 
@@ -109,8 +108,7 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 
-
-🌌✨🌠🧝‍♂️✨🌌
+<p align="center">🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹</p>
 
 
 ### 🛠 Tech Stack
@@ -123,8 +121,7 @@ Web:          Flask • REST APIs • Web Development
 Finance:      Trading Automation • Crypto Markets
 ```
 
-
-🌌✨🌠🧝‍♂️✨🌌
+<p align="center">🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹</p>
 
 ### 🧙‍♂️ Quest Progress
 
@@ -150,8 +147,7 @@ Finance:      Trading Automation • Crypto Markets
 
 🧙‍♂️🟩🟩🟩🟩🟩🟩🟩🟩🟩🟩🏔️
 
-
-🌌✨🌠🧝‍♂️✨🌌
+<p align="center">🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹</p>
 
 ### 📊 GitHub Stats
 
@@ -159,8 +155,7 @@ Finance:      Trading Automation • Crypto Markets
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Gianpy99&layout=compact&theme=tokyonight)
 
-
-🌌✨🌠🧝‍♂️✨🌌
+<p align="center">🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹</p>
 
 ### 📫 Let's Connect!
 
