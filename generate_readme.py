@@ -60,17 +60,17 @@ def filter_repos(repos):
     filtered = []
     # after fetching repositories, e.g., using PyGithub
     for repo in repos:
-       print(f"DEBUG: Checking repo: {repo.full_name}")
-       print(f"       Fork: {repo.fork}, Archived: {repo.archived}, Topics: {repo.get_topics()}")
+       print(f"DEBUG: Checking repo: {repo['full_name']}")
+       print(f"Fork: {repo.fork}, Archived: {repo.archived}, Topics: {repo.get_topics()}")
 
     # Exclude forks
        if repo.fork and os.environ.get("EXCLUDE_FORKS", "false") == "true":
-          print(f"       Skipping because it's a fork")
+          print(f"Skipping because it's a fork")
           continue
 
     # Exclude archived
        if repo.archived and os.environ.get("EXCLUDE_ARCHIVED", "false") == "true":
-          print(f"       Skipping because it's archived")
+          print(f"Skipping because it's archived")
           continue
 
     # Exclude by topic
