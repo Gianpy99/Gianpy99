@@ -25,6 +25,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 📖 Real Personal Note AI tracker
 
+👣 🧙‍♂️🟩▫️▫️▫️▫️▫️▫️▫️▫️▫️🏔️
+
 
 ---
 
@@ -39,6 +41,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 💻 **Tech:** python, sql
 
 📖 Personal librarian
+
+👣 🧙‍♂️🟩🟩🟩▫️▫️▫️▫️▫️▫️▫️🏔️
 
 
 ---
@@ -55,6 +59,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 📖 Main repo for personal GitHub profile scripts
 
+👣 
+
 
 ---
 
@@ -70,6 +76,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 📖 None
 
+👣 
+
 
 ---
 
@@ -81,6 +89,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 📖 None
 
+👣 
+
 
 ---
 
@@ -91,6 +101,8 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 💻 **Tech:** None
 
 📖 None
+
+👣 
 
 
 ---
