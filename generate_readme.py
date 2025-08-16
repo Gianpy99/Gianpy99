@@ -140,15 +140,20 @@ def format_repo_card(repo):
     # Badge con shields.io
     badge = f"[![{name}](https://img.shields.io/badge/{name}-Repo-blue?style=for-the-badge&logo=github)]({url})"
 
-    # Topics come tag
-    topics_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
+    # Topics divisi in categorie e tech
+    category_topics = [t.replace("category-", "") for t in topics if t.startswith("category-")]
+    tech_topics = [t.replace("tech-", "") for t in topics if t.startswith("tech-")]
+
+    category_str = ", ".join(category_topics) if category_topics else "none"
+    tech_str = ", ".join(tech_topics) if tech_topics else language
 
     return (
         f"{badge}\n\n"
-        f"🏷️ **Topics:** {topics_str}\n\n"
-        f"💻 **Tech:** {language}\n\n"
-        f"📖 {description}\n\n---\n\n\n"
+        f"🏷️ **Category:** {category_str}\n\n"
+        f"💻 **Tech:** {tech_str}\n\n"
+        f"📖 {description}\n\n\n---\n"
     )
+
 
 
 def generate_readme(repos):
