@@ -181,6 +181,8 @@ def format_repo_card(repo):
         # Estraggo il numero, es: progress-23 -> 23
         current_step = int(progress_topics[0].split("-")[1])
         progress = progress_bar(current_step)
+    elif name.lower() == "gianpy99":
+        progress = progress_bar(data.get("progress", progress)
     else:
         progress = ""
 
