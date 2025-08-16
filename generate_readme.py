@@ -96,7 +96,8 @@ def categorize_repos(repos):
         "LEGO Projects": [],
         "Automation": [],
         "Web & Apps": [],
-        "Other": []
+        "CI\CD & Devops": [],
+        "Fun & Magic": []
     }
 
     for repo in repos:
