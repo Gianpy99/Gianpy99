@@ -99,7 +99,7 @@ def categorize_repos(repos):
         "CI\CD & Devops": [],
         "Fun & Magic": []
     }
-    
+    name = repo["name"]
 
     for repo in repos:
         repo_topics = repo.get("topics", [])
@@ -116,6 +116,8 @@ def categorize_repos(repos):
         elif "category-web" in cat_topics:
             categories["Web & Apps"].append(repo)
         elif "category-devops" in cat_topics:
+            categories["CI\CD & Devops"].append(repo)
+        elif name.lower() == "gianpy99":
             categories["CI\CD & Devops"].append(repo)
         else:
             categories["Fun & Magic"].append(repo)
