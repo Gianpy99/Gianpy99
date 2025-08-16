@@ -136,26 +136,40 @@ def md_table_row(repo):
 def format_repo_card(repo):
     name = repo["name"]
     url = repo["html_url"]
-    description = repo.get("description", "No description provided")
     topics = repo.get("topics", [])
     language = repo.get("language", "Unknown")
+    
+    # Default description and tech
+    description = repo.get("description", "No description provided")
+    tech = [language] if language else ["Unknown"]
 
-    # Badge con shields.io
+    # Override for main repo if metadata file exists
+    if name.lower() == "gianpy99":
+        metadata_url = f"https://raw.githubusercontent.com/{repo['owner']['login']}/{name}/main/repo_metadata.json"
+        try:
+            resp = requests.get(metadata_url)
+            if resp.status_code == 200:
+                data = resp.json()
+                description = data.get("description", description)
+                tech = data.get("tech", tech)
+        except Exception as e:
+            print(f"Could not load metadata for {name}: {e}")
+
+    # Badge with shields.io
     badge = f"[![{name}](https://img.shields.io/badge/{name}-Repo-blue?style=for-the-badge&logo=github)]({url})"
-
-    # Topics divisi in categorie e tech
-    category_topics = [t.replace("category-", "") for t in topics if t.startswith("category-")]
-    tech_topics = [t.replace("tech-", "") for t in topics if t.startswith("tech-")]
-
-    category_str = ", ".join(category_topics) if category_topics else "none"
-    tech_str = ", ".join(tech_topics) if tech_topics else language
+    
+    # Topics as tags
+    topics_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
+    
+    tech_str = ", ".join(tech)
 
     return (
-        f"{badge}\n\n"
-        f"🏷️ **Category:** {category_str}\n\n"
-        f"💻 **Tech:** {tech_str}\n\n"
-        f"📖 {description}\n\n\n---\n"
+        f"{badge}\n"
+        f"🏷️ **Topics:** {topics_str}\n"
+        f"💻 **Tech:** {tech_str}\n"
+        f"📖 {description}\n\n---\n"
     )
+
 
 
 
