@@ -61,7 +61,7 @@ def filter_repos(repos):
     # after fetching repositories, e.g., using PyGithub
     for repo in repos:
        print(f"DEBUG: Checking repo: {repo['full_name']}")
-       print(f"Fork: {repo.fork}, Archived: {repo.archived}, Topics: {repo.get_topics()}")
+       print(f"Fork: {repo['fork']}, Archived: {repo['archived']}, Topics: {repo['get_topics()']}")
 
     # Exclude forks
        if repo.fork and os.environ.get("EXCLUDE_FORKS", "false") == "true":
@@ -75,11 +75,11 @@ def filter_repos(repos):
 
     # Exclude by topic
        hide_topic = os.environ.get("HIDE_TOPIC", "").strip()
-       if hide_topic and hide_topic in repo.get_topics():
-          print(f"       Skipping because it has the hide topic: {hide_topic}")
+       if hide_topic and hide_topic in repo['get_topics()']:
+          print(f"Skipping because it has the hide topic: {hide_topic}")
           continue
 
-       print(f"       Including repo in README")
+       print(f"Including repo in README")
 
        filtered.append(repo)
     return filtered
