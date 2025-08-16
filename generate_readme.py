@@ -58,31 +58,37 @@ def fetch_repos():
 
 def filter_repos(repos):
     filtered = []
-    # after fetching repositories, e.g., using PyGithub
+    hide_topic = os.environ.get("HIDE_TOPIC", "").strip()
+
     for repo in repos:
-       print(f"DEBUG: Checking repo: {repo['full_name']}")
-       print(f"Fork: {repo['fork']}, Archived: {repo['archived']}, Topics:{repo.get('topics', []) }")
+        full_name = repo.get('full_name', 'unknown')
+        fork = repo.get('fork', False)
+        archived = repo.get('archived', False)
+        topics = repo.get('topics', [])
 
-    # Exclude forks
-       if repo.fork and os.environ.get("EXCLUDE_FORKS", "false") == "true":
-          print(f"Skipping because it's a fork")
-          continue
+        print(f"DEBUG: Checking repo: {full_name}")
+        print(f"Fork: {fork}, Archived: {archived}, Topics: {topics}")
 
-    # Exclude archived
-       if repo.archived and os.environ.get("EXCLUDE_ARCHIVED", "false") == "true":
-          print(f"Skipping because it's archived")
-          continue
+        # Exclude forks
+        if fork and EXCLUDE_FORKS:
+            print(f"Skipping {full_name} because it's a fork")
+            continue
 
-    # Exclude by topic
-       hide_topic = os.environ.get("HIDE_TOPIC", "").strip()
-       if hide_topic and hide_topic in repo.get["topics",[]]:
-          print(f"Skipping because it has the hide topic: {hide_topic}")
-          continue
+        # Exclude archived
+        if archived and EXCLUDE_ARCHIVED:
+            print(f"Skipping {full_name} because it's archived")
+            continue
 
-       print(f"Including repo in README")
+        # Exclude by topic
+        if hide_topic and hide_topic in topics:
+            print(f"Skipping {full_name} because it has the hide topic: {hide_topic}")
+            continue
 
-       filtered.append(repo)
+        print(f"Including repo in README")
+        filtered.append(repo)
+
     return filtered
+
 
 def categorize_repos(repos):
     categories = {"AI & Machine Learning": [], "DevOps & Automation": [], "Tools & Utilities": [], "Other": []}
