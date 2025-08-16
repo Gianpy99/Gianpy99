@@ -30,6 +30,21 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 
+#### Automation
+
+[![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
+
+🏷️ **Category:** automation
+
+💻 **Tech:** python, sql
+
+📖 Personal librarian
+
+
+---
+
+
+
 #### Fun & Magic
 
 [![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
@@ -54,7 +69,7 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ---
 
-[![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
+[![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
 
 🏷️ **Category:** none
 
