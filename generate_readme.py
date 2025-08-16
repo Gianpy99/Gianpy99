@@ -99,10 +99,10 @@ def categorize_repos(repos):
         "CI\CD & Devops": [],
         "Fun & Magic": []
     }
-    name = repo["name"]
 
     for repo in repos:
         repo_topics = repo.get("topics", [])
+        name = repo["name"]
 
         # Trova i topic di categoria (quelli che iniziano con category-)
         cat_topics = [t for t in repo_topics if t.startswith("category-")]
