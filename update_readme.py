@@ -10,10 +10,10 @@ TAG_FILTER = "show-readme"  # Only include repos with this topic
 IMAGE_PATH = "assets/gandalf_shadowfax.png"  # Path in your repo
 
 # Progress bar settings
-TOTAL_STEPS = 10
-HOBBIT = "🧝‍♂️"
-DESTINATION = "🏡"
-PATH_STEP = "·"
+TOTAL_STEPS = 5
+#HOBBIT = "🧝‍♂️"
+#DESTINATION = "🏡"
+#PATH_STEP = "·"
 
 # Initialize GitHub client
 g = Github(GITHUB_TOKEN)
@@ -43,15 +43,49 @@ readme_content = f"""# 🧙‍♂️ My Magical GitHub
 
 """
 
-separator = "\n🌿✨🧙‍♂️✨🌿\n"
+
+# ===============================
+# SEPARATOR STYLES CONFIG
+# ===============================
+separator_styles = {
+    "classic_magic":     "\n🌿✨🧙‍♂️✨🌿\n",       # Classic magical separator
+    "flying_eagle":      "\n🌿✨🧙‍♂️🦅✨🌿\n",    # With flying eagle
+    "starry_night":      "\n🌌✨🌠🧝‍♂️✨🌌\n",    # Starry night magical trail
+    "forest_mystic":     "\n🍄🌺🦄🌿🧙‍♂️🌿\n",   # Forest + mystical creature
+    "adventure_weapons": "\n🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹\n" # Adventure + weapon theme
+}
+
+# Pick your separator style
+selected_separator = "starry_night"
+separator = separator_styles[selected_separator]
+
+# Example usage
+# readme_content += separator
 
 for repo in repos_to_list:
     readme_content += f"- [{repo.name}]({repo.html_url}): {repo.description or 'No description'}{separator}"
 
-# Hobbit progress bar
+# ===============================
+# HOBBIT PROGRESS BAR CONFIG
+# ===============================
+# Make sure TOTAL_STEPS and repos_to_list are defined before this block
 current_progress = min(len(repos_to_list), TOTAL_STEPS)
-progress_bar = HOBBIT + PATH_STEP * current_progress + DESTINATION + PATH_STEP * (TOTAL_STEPS - current_progress)
-readme_content += f"\n## 🗺️ Journey Progress\n\n{progress_bar}\n"
+
+# Define different progress bar styles
+progress_styles = {
+    "hobbit_walk":      "🧝‍♂️" + "·" * current_progress + "🏡" + "·" * (TOTAL_STEPS - current_progress),
+    "hobbit_hill":      "🧝‍♂️" + "⛰️" * current_progress + "🏡" + "·" * (TOTAL_STEPS - current_progress),
+    "hobbit_shadowfax": "🧙‍♂️🐎" + "·" * current_progress + "🏡" + "·" * (TOTAL_STEPS - current_progress),
+    "hobbit_stars":     "🧝‍♂️✨🌠" + "·" * current_progress + "🏡" + "✨🌌" * (TOTAL_STEPS - current_progress),
+    "hobbit_creatures": "🧝‍♂️🕊️🦋" + "·" * current_progress + "🏡" + "·" * (TOTAL_STEPS - current_progress)
+}
+
+# Choose your progress style
+selected_style = "hobbit_shadowfax"
+progress_bar = progress_styles[selected_style]
+
+# Add progress bar to README content (wrapped in a code block for alignment)
+readme_content += f"\n## 🗺️ Journey Progress\n\n```\n{progress_bar}\n```\n"
 
 # Example badges
 readme_content += """
