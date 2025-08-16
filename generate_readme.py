@@ -110,6 +110,33 @@ def md_table_row(repo):
     lang = repo.get("language", "—")
     return f"| {name} | {desc} | {lang} |"
 
+def format_repo_card(repo):
+    name = repo["name"]
+    url = repo["html_url"]
+    description = repo.get("description", "No description provided")
+    topics = repo.get("topics", [])
+    language = repo.get("language", "Unknown")
+
+    # Badge con shields.io
+    badge = f"[![{name}](https://img.shields.io/badge/{name}-Repo-blue?style=for-the-badge&logo=github)]({url})"
+
+    # Topics come tag
+    topics_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
+
+    return (
+        f"{badge}\n"
+        f"🏷️ **Topics:** {topics_str}\n"
+        f"💻 **Tech:** {language}\n"
+        f"📖 {description}\n\n---\n"
+    )
+
+
+def generate_readme(repos):
+    content = "## 🚀 My Projects\n\n"
+    for repo in repos:
+        content += format_repo_card(repo)
+    return content
+
 # ===============================
 # BUILD README
 # ===============================
@@ -132,9 +159,8 @@ def build_readme(repos):
         if not items:
             continue
         parts.append(f"#### {cat}\n")
-        parts.append("| Project | Description | Tech |\n|--------|-------------|------|\n")
         for repo in items[:TOP_N_REPOS]:
-            parts.append(md_table_row(repo) + "\n")
+            parts.append(format_repo_card(repo))
         parts.append("\n")
 
     parts.append(separator)
