@@ -144,10 +144,10 @@ def format_repo_card(repo):
     topics_str = " ".join([f"`{t}`" for t in topics]) if topics else "`none`"
 
     return (
-        f"{badge}\n"
-        f"🏷️ **Topics:** {topics_str}\n"
-        f"💻 **Tech:** {language}\n"
-        f"📖 {description}\n\n---\n"
+        f"{badge}\n\n"
+        f"🏷️ **Topics:** {topics_str}\n\n"
+        f"💻 **Tech:** {language}\n\n"
+        f"📖 {description}\n\n---\n\n\n"
     )
 
 
