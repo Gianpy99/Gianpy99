@@ -113,8 +113,10 @@ def categorize_repos(repos):
             categories["Automation"].append(repo)
         elif "category-web" in cat_topics:
             categories["Web & Apps"].append(repo)
+        elif "category-devops" in cat_topics:
+            categories["CI\CD & Devops"].append(repo)
         else:
-            categories["Other"].append(repo)
+            categories["Fun & Magic"].append(repo)
 
     return categories
 
