@@ -242,8 +242,7 @@ def build_readme(repos):
 
     # Progress bar section
     parts.append("### 🧙‍♂️ Quest Progress\n")
-    for i in range(TOTAL_STEPS + 1):
-        parts.append(progress_bar(i) + "\n")
+    parts.append(progress_bar(2) + "\n")
 
     parts.append(separator)
 
