@@ -171,12 +171,25 @@ def format_repo_card(repo):
 
     # Badge with shields.io
     badge = f"[![{name}](https://img.shields.io/badge/{name}-Repo-blue?style=for-the-badge&logo=github)]({url})"
+
+    # Separiamo il topic progress da quelli normali
+    progress_topics = [t for t in topics if t.startswith("progress-")]
+
+    # Calcolo del progresso se c'è un topic progress
+    if progress_topics:
+        # Estraggo il numero, es: progress-23 -> 23
+        current_step = int(progress_topics[0].split("-")[1])
+        progress = progress_bar(current_step)
+    else:
+        progress = ""
+
     
     return (
         f"{badge}\n\n"
         f"🏷️ **Category:** {category_str}\n\n"
         f"💻 **Tech:** {tech_str}\n\n"
-        f"📖 {description}\n\n\n---\n"
+        f"📖 {description}\n\n"
+        f"👣 {progress}\n\n\n---\n"
     )
 
 def generate_readme(repos):
