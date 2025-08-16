@@ -18,9 +18,13 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### AI & ML
 
 [![RocketNotes_AI](https://img.shields.io/badge/RocketNotes_AI-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/RocketNotes_AI)
-🏷️ **Topics:** `category-ai` `tech-dockerimage` `tech-raspberrypi` `tech-tensorflow`
-💻 **Tech:** Unknown
+
+🏷️ **Category:** ai
+
+💻 **Tech:** dockerimage, raspberrypi, tensorflow
+
 📖 Real Personal Note AI tracker
+
 
 ---
 
@@ -29,9 +33,13 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### Automation
 
 [![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
-🏷️ **Topics:** `category-automation` `tech-python` `tech-sql`
-💻 **Tech:** Unknown
+
+🏷️ **Category:** automation
+
+💻 **Tech:** python, sql
+
 📖 Personal librarian
+
 
 ---
 
@@ -40,23 +48,35 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 #### Fun & Magic
 
 [![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
-🏷️ **Topics:** `none`
+
+🏷️ **Category:** `none`
+
 💻 **Tech:** Python, GitHub Actions
+
 📖 Main repo for personal GitHub profile scripts
+
 
 ---
 
 [![MythicMoments](https://img.shields.io/badge/MythicMoments-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/MythicMoments)
-🏷️ **Topics:** `none`
+
+🏷️ **Category:** none
+
 💻 **Tech:** Python
+
 📖 None
+
 
 ---
 
 [![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
-🏷️ **Topics:** `none`
-💻 **Tech:** Unknown
+
+🏷️ **Category:** none
+
+💻 **Tech:** None
+
 📖 None
+
 
 ---
 
