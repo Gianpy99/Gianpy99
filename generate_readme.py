@@ -24,6 +24,7 @@ SEPARATORS = {
     "adventure": "\n🏹🗡️⚔️🧙‍♂️⚔️🗡️🏹\n"
 }
 separator = SEPARATORS.get(os.getenv("SELECTED_SEPARATOR", "starry_night"), SEPARATORS["starry_night"])
+separator = f'<p align="center">{separator.strip()}</p>\n'
 
 # ===============================
 # PROGRESS BAR OPTIONS
