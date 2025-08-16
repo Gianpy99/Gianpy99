@@ -91,24 +91,44 @@ def filter_repos(repos):
 
 
 def categorize_repos(repos):
-    categories = {"AI & Machine Learning": [], "DevOps & Automation": [], "Tools & Utilities": [], "Other": []}
+    categories = {
+        "AI & ML": [],
+        "LEGO Projects": [],
+        "Automation": [],
+        "Web & Apps": [],
+        "Other": []
+    }
+
     for repo in repos:
-        topics = repo.get("topics", [])
-        if any(t in topics for t in ["ai", "ml", "tpu", "coral"]):
-            categories["AI & Machine Learning"].append(repo)
-        elif any(t in topics for t in ["devops", "automation", "cicd"]):
-            categories["DevOps & Automation"].append(repo)
-        elif any(t in topics for t in ["lego", "tool", "utility"]):
-            categories["Tools & Utilities"].append(repo)
+        repo_topics = repo.get("topics", [])
+
+        # Trova i topic di categoria (quelli che iniziano con category-)
+        cat_topics = [t for t in repo_topics if t.startswith("category-")]
+        
+        if "category-ai" in cat_topics:
+            categories["AI & ML"].append(repo)
+        elif "category-lego" in cat_topics:
+            categories["LEGO Projects"].append(repo)
+        elif "category-automation" in cat_topics:
+            categories["Automation"].append(repo)
+        elif "category-web" in cat_topics:
+            categories["Web & Apps"].append(repo)
         else:
             categories["Other"].append(repo)
+
     return categories
 
 def md_table_row(repo):
-    name = f"[**{repo['name']}**]({repo['html_url']})"
-    desc = (repo["description"] or "No description").replace("|", "\\|")
-    lang = repo.get("language", "—")
-    return f"| {name} | {desc} | {lang} |"
+    name = repo["name"]
+    desc = repo.get("description", "No description").replace("|", "/")
+    url = repo["html_url"]
+
+    # Trova i topic tech-*
+    tech_topics = [t.replace("tech-", "") for t in repo.get("topics", []) if t.startswith("tech-")]
+
+    tech_str = ", ".join(tech_topics) if tech_topics else repo.get("language", "N/A")
+
+    return f"| [{name}]({url}) | {desc} | {tech_str} |"
 
 def format_repo_card(repo):
     name = repo["name"]
