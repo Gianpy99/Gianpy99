@@ -157,7 +157,7 @@ def format_repo_card(repo):
                 tech_str = ", ".join(tech)
         except Exception as e:
             print(f"Could not load metadata for {name}: {e}")
-    else 
+    else:
         # Topics divisi in categorie e tech
         category_topics = [t.replace("category-", "") for t in topics if t.startswith("category-")]
         tech_topics = [t.replace("tech-", "") for t in topics if t.startswith("tech-")]
