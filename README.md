@@ -48,6 +48,36 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 
 
+#### Web & Apps
+
+[![VirtualMuseum](https://img.shields.io/badge/VirtualMuseum-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/VirtualMuseum)
+
+🏷️ **Category:** web
+
+💻 **Tech:** python
+
+📖 Virtual Museum of my personal book and signature collection
+
+🧙‍♂️👣▫️▫️▫️▫️▫️▫️▫️▫️▫️🏔️
+
+
+---
+
+[![MythicMoments](https://img.shields.io/badge/MythicMoments-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/MythicMoments)
+
+🏷️ **Category:** web
+
+💻 **Tech:** html, python, sql, website
+
+📖 Daily Quotes from LOTR/HP/Matrix
+
+🧙‍♂️👣▫️▫️▫️▫️▫️▫️▫️▫️▫️🏔️
+
+
+---
+
+
+
 #### CI\CD & Devops
 
 [![Gianpy99](https://img.shields.io/badge/Gianpy99-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Gianpy99)
@@ -67,19 +97,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
-[![MythicMoments](https://img.shields.io/badge/MythicMoments-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/MythicMoments)
-
-🏷️ **Category:** none
-
-💻 **Tech:** Python
-
-📖 None
-
-
-
-
----
-
 [![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
 
 🏷️ **Category:** none
@@ -93,7 +110,20 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ---
 
-[![VirtualMuseum](https://img.shields.io/badge/VirtualMuseum-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/VirtualMuseum)
+[![LifeBoard](https://img.shields.io/badge/LifeBoard-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/LifeBoard)
+
+🏷️ **Category:** none
+
+💻 **Tech:** None
+
+📖 Family manager
+
+
+
+
+---
+
+[![FamilyDomain](https://img.shields.io/badge/FamilyDomain-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/FamilyDomain)
 
 🏷️ **Category:** none
 
