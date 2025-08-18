@@ -33,6 +33,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Automation
 
+[![github-master-monitor](https://img.shields.io/badge/github-master-monitor-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/github-master-monitor)
+
+🏷️ **Category:** automation
+
+💻 **Tech:** githubaction, python, website
+
+📖 This is my platform to review the current progress of all my projects
+
+
+
+
+---
+
 [![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
 
 🏷️ **Category:** automation
