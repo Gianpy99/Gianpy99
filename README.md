@@ -20,11 +20,11 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 🏷️ **Category:** ai
 
-💻 **Tech:** dockerimage, raspberrypi, tensorflow
+💻 **Tech:** android, dart, flutter
 
 📖 Real Personal Note AI tracker
 
-🧙‍♂️👣▫️▫️▫️▫️▫️▫️▫️▫️▫️🏔️
+🧙‍♂️👣👣👣👣👣👣👣▫️▫️▫️🏔️
 
 
 ---
