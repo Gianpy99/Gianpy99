@@ -33,19 +33,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Automation
 
-[![github-master-monitor](https://img.shields.io/badge/github-master-monitor-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/github-master-monitor)
-
-🏷️ **Category:** automation
-
-💻 **Tech:** githubaction, python, website
-
-📖 This is my platform to review the current progress of all my projects
-
-
-
-
----
-
 [![Libriary](https://img.shields.io/badge/Libriary-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Libriary)
 
 🏷️ **Category:** automation
@@ -55,6 +42,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 📖 Personal librarian
 
 🧙‍♂️👣👣👣▫️▫️▫️▫️▫️▫️▫️🏔️
+
+
+---
+
+[![github-master-monitor](https://img.shields.io/badge/github-master-monitor-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/github-master-monitor)
+
+🏷️ **Category:** automation
+
+💻 **Tech:** githubaction, python, website
+
+📖 This is my platform to review the current progress of all my projects
+
+
 
 
 ---
@@ -110,11 +110,11 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
-[![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
+[![Family-Game-Score-Tracker](https://img.shields.io/badge/Family-Game-Score-Tracker-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Family-Game-Score-Tracker)
 
 🏷️ **Category:** none
 
-💻 **Tech:** None
+💻 **Tech:** Shell
 
 📖 None
 
@@ -123,20 +123,20 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ---
 
-[![LifeBoard](https://img.shields.io/badge/LifeBoard-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/LifeBoard)
+[![BrickLens](https://img.shields.io/badge/BrickLens-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/BrickLens)
 
 🏷️ **Category:** none
 
-💻 **Tech:** None
+💻 **Tech:** Java
 
-📖 Family manager
+📖 Little Environment to guide the first step in lego Photography
 
 
 
 
 ---
 
-[![FamilyDomain](https://img.shields.io/badge/FamilyDomain-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/FamilyDomain)
+[![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
 
 🏷️ **Category:** none
 
