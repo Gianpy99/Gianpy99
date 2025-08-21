@@ -110,6 +110,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
+[![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
+
+🏷️ **Category:** none
+
+💻 **Tech:** Shell
+
+📖 None
+
+
+
+
+---
+
 [![Family-Game-Score-Tracker](https://img.shields.io/badge/Family-Game-Score-Tracker-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Family-Game-Score-Tracker)
 
 🏷️ **Category:** none
@@ -130,19 +143,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 💻 **Tech:** Java
 
 📖 Little Environment to guide the first step in lego Photography
-
-
-
-
----
-
-[![GptOss_trial](https://img.shields.io/badge/GptOss_trial-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/GptOss_trial)
-
-🏷️ **Category:** none
-
-💻 **Tech:** None
-
-📖 None
 
 
 
