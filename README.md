@@ -110,11 +110,11 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
-[![ImageMultiTool](https://img.shields.io/badge/ImageMultiTool-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/ImageMultiTool)
+[![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
 
 🏷️ **Category:** none
 
-💻 **Tech:** None
+💻 **Tech:** HTML
 
 📖 None
 
@@ -123,11 +123,11 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 ---
 
-[![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
+[![ImageMultiTool](https://img.shields.io/badge/ImageMultiTool-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/ImageMultiTool)
 
 🏷️ **Category:** none
 
-💻 **Tech:** Shell
+💻 **Tech:** None
 
 📖 None
 
