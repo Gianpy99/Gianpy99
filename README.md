@@ -110,6 +110,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
+[![Ollama_wrapper](https://img.shields.io/badge/Ollama_wrapper-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Ollama_wrapper)
+
+🏷️ **Category:** none
+
+💻 **Tech:** Python
+
+📖 None
+
+
+
+
+---
+
 [![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
 
 🏷️ **Category:** none
@@ -128,19 +141,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 🏷️ **Category:** none
 
 💻 **Tech:** None
-
-📖 None
-
-
-
-
----
-
-[![Family-Game-Score-Tracker](https://img.shields.io/badge/Family-Game-Score-Tracker-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Family-Game-Score-Tracker)
-
-🏷️ **Category:** none
-
-💻 **Tech:** Shell
 
 📖 None
 
