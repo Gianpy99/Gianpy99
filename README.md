@@ -110,6 +110,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
+[![Fellowship_of_Seasonal_Explorers](https://img.shields.io/badge/Fellowship_of_Seasonal_Explorers-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Fellowship_of_Seasonal_Explorers)
+
+🏷️ **Category:** none
+
+💻 **Tech:** Dart
+
+📖 Epic Adventure: Kids aren't just learning - they're embarking on seasonal quests Community: The "Fellowship" implies they're part of something bigger, maybe with friends or family Discovery: "Explorers" makes learning feel like uncovering hidden treasures Seasonal Journey: Each season becomes a new land to discover
+
+
+
+
+---
+
 [![Ollama_wrapper](https://img.shields.io/badge/Ollama_wrapper-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Ollama_wrapper)
 
 🏷️ **Category:** none
@@ -128,19 +141,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 🏷️ **Category:** none
 
 💻 **Tech:** HTML
-
-📖 None
-
-
-
-
----
-
-[![ImageMultiTool](https://img.shields.io/badge/ImageMultiTool-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/ImageMultiTool)
-
-🏷️ **Category:** none
-
-💻 **Tech:** None
 
 📖 None
 
