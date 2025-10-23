@@ -110,6 +110,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
+[![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
+
+🏷️ **Category:** none
+
+💻 **Tech:** HTML
+
+📖 None
+
+
+
+
+---
+
 [![Fellowship_of_Seasonal_Explorers](https://img.shields.io/badge/Fellowship_of_Seasonal_Explorers-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Fellowship_of_Seasonal_Explorers)
 
 🏷️ **Category:** none
@@ -128,19 +141,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 🏷️ **Category:** none
 
 💻 **Tech:** Python
-
-📖 None
-
-
-
-
----
-
-[![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
-
-🏷️ **Category:** none
-
-💻 **Tech:** HTML
 
 📖 None
 
