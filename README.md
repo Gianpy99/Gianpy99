@@ -110,6 +110,19 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 
 #### Fun & Magic
 
+[![Lego_Bricklink](https://img.shields.io/badge/Lego_Bricklink-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Lego_Bricklink)
+
+🏷️ **Category:** none
+
+💻 **Tech:** Python
+
+📖 This is a repo to track the development of my Lego Brickilink wanted list management
+
+
+
+
+---
+
 [![KidsPlay_Web_Arcade-](https://img.shields.io/badge/KidsPlay_Web_Arcade--Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/KidsPlay_Web_Arcade-)
 
 🏷️ **Category:** none
@@ -130,19 +143,6 @@ I'm a hands-on engineer passionate about building test automation pipelines, emb
 💻 **Tech:** Dart
 
 📖 Epic Adventure: Kids aren't just learning - they're embarking on seasonal quests Community: The "Fellowship" implies they're part of something bigger, maybe with friends or family Discovery: "Explorers" makes learning feel like uncovering hidden treasures Seasonal Journey: Each season becomes a new land to discover
-
-
-
-
----
-
-[![Ollama_wrapper](https://img.shields.io/badge/Ollama_wrapper-Repo-blue?style=for-the-badge&logo=github)](https://github.com/Gianpy99/Ollama_wrapper)
-
-🏷️ **Category:** none
-
-💻 **Tech:** Python
-
-📖 None
 
 
 
